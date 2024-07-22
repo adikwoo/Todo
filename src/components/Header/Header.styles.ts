@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { baseTheme } from "../../Styles/Theme";
 
 export const HeaderContainer = styled("div")`
-  width: 100vw;
+  width: 99vw;
   display: flex;
   flex-direction: row;
   justify-content: center;

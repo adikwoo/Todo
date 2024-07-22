@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTodo } from "../../actions/todoActions";
 import * as Styled from "./Todolist.styled";
-import Button from "../Button/Button";
+import Button from "../Button";
 interface TodoListProps {
   onClose: () => void;
 }
@@ -34,7 +34,7 @@ const TodoList: React.FC<TodoListProps> = ({ onClose }) => {
           placeholder="Enter your todo..."
         />
         <Button
-          text="Add Todo"
+          text="Confirm"
           onClick={() => {
             handleAddTodo();
             onClose();

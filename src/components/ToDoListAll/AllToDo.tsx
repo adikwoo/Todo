@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import TodoListItem from "../ToDoListItem/TodoListItem";
+import TodoListItem from "../ToDoListItem";
 import * as Styled from "./AllToDo.styled"
 
 const AllToDo = () => {

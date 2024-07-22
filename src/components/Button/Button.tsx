@@ -6,7 +6,7 @@ interface ButtonProps {
   text: string;
   href?: string;
   disabled?: boolean;
-  color?: "red" | "green";
+  color?: string;
   children?: any;
   width?:string;
 }
